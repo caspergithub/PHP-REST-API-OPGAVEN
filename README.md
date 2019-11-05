@@ -12,4 +12,5 @@ for at slette/delete skal du connecte til entrypoint url med DELETE method på I
 hvis det ikke virker bliver der vist en fejl meddelelse ellers bliver den returneret med en OK.
 
 for at oprette en ny bruger, skal du connecte til entrypoint url med POST method. 
+så skal du indtaste det data der skal oprettes og vælge accept. 
 hvis det ikke virker bliver der vist en fejl meddelelse ellers bliver den returneret med en OK.
