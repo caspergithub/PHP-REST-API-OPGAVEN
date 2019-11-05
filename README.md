@@ -15,7 +15,7 @@ returns json data with: id, username, email, password.
 __________________________________________________________________________________
 
 
-Get single user: 
+**Get single user:**
 method: GET
 
 parameters: "id" value integer (user id from data)
@@ -25,7 +25,7 @@ returns json data with: id, username, email, password.
 __________________________________________________________________________________
 
 
-Make new user:
+**Make new user:**
 method: POST
 
 body: json formattet: username, email, password. 
@@ -33,7 +33,7 @@ body: json formattet: username, email, password.
 __________________________________________________________________________________
 
 
-Update user:
+**Update user:**
 method: PUT
 
 body: json formattet: username, email, password. Send values to update.
@@ -45,7 +45,7 @@ eks:
 __________________________________________________________________________________
 
 
-Delete single user:
+**Delete single user:**
 method: DELETE
 
 parameters: "id" value integer (user id from data) 
@@ -53,7 +53,7 @@ returns json data with: errorcode.
 
 
 
-==============================================================================================================================
+=======================================================================================
 
 
 For at kunne hente alt data på alle brugere (.json formateret data), skal du connecte til entrypoint url http://localhost:8888/pdo-opgaven/pdo-opgave-master/index.php med en GET method. DEFAULT.
