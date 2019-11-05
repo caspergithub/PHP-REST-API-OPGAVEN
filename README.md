@@ -7,7 +7,7 @@ entrypoint: URL: http://localhost/user-rest-api/API/entrypoint.php
 API functions
 -------------
 
-Get all users:
+**Get all users:**
 method: GET
 
 returns json data with: id, username, email, password.
