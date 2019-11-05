@@ -39,7 +39,9 @@ method: PUT
 body: json formattet: username, email, password. Send values to update.
 
 eks: 
+
 {"email":"insert your new data here"}
+
 {"email":"insert your new data here","username":"insert your new data here"}
 
 __________________________________________________________________________________
@@ -49,6 +51,7 @@ ________________________________________________________________________________
 method: DELETE
 
 parameters: "id" value integer (user id from data) 
+
 returns json data with: errorcode.
 
 
