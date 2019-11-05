@@ -1,6 +1,6 @@
 # PHP-REST-API-OPGAVEN
 
-for at kunne hente alt data på alle brugere (json formateret data), skal du connecte til entrypoint url http://localhost:8888/pdo-opgaven/pdo-opgave-master/index.php med GET method. DEFAULT.
+For at kunne hente alt data på alle brugere (.json formateret data), skal du connecte til entrypoint url http://localhost:8888/pdo-opgaven/pdo-opgave-master/index.php med GET method. DEFAULT.
 
 hvis du vil have info på en bestemt bruger skal du bruge GET method igen men med ID'et på den bruger du vil have info på. 
 hvis det ID ikke findes, eller der sker en anden fejl, bliver der vist en fejl meddelelse ellers bliver den returneret med en OK og vist som json formateret data.
