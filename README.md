@@ -12,6 +12,8 @@ method: GET
 
 returns json data with: id, username, email, password.
 
+__________________________________________________________________________________
+
 
 Get single user: 
 method: GET
@@ -20,11 +22,15 @@ parameters: "id" value integer (user id from data)
 
 returns json data with: id, username, email, password.
 
+__________________________________________________________________________________
+
 
 Make new user:
 method: POST
 
 body: json formattet: username, email, password. 
+
+__________________________________________________________________________________
 
 
 Update user:
@@ -35,6 +41,8 @@ body: json formattet: username, email, password. Send values to update.
 eks: 
 {"email":"insert your new data here"}
 {"email":"insert your new data here","username":"insert your new data here"}
+
+__________________________________________________________________________________
 
 
 Delete single user:
