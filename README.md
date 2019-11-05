@@ -30,6 +30,12 @@ method: POST
 
 body: json formattet: username, email, password. 
 
+Required 
+
+{"email":"insert your new data here","username":"insert your new data here","password":"insert your new data here"}
+
+returns: json formattet error code or OK
+
 __________________________________________________________________________________
 
 
