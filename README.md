@@ -5,6 +5,7 @@ Rest api til user management
 entrypoint: URL: http://localhost/user-rest-api/API/entrypoint.php
 
 API functions
+-------------
 
 Get all users:
 method: GET
