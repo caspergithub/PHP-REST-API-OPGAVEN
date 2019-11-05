@@ -53,7 +53,9 @@ returns json data with: errorcode.
 
 
 
-=======================================================================================
+__________________________________________________________________________________
+=========================================================================================
+__________________________________________________________________________________
 
 
 For at kunne hente alt data på alle brugere (.json formateret data), skal du connecte til entrypoint url http://localhost:8888/pdo-opgaven/pdo-opgave-master/index.php med en GET method. DEFAULT.
